@@ -1,10 +1,12 @@
 # Knight of Fawn
 
 ## Description
-This is a text RPG game in which you can:
+This is a text RPG game which was made using OOP principles.
+
+In this game you can:
 
 • Create unique character (Knight, Paladin, Mage or Priest)
-• Explore taverns, dungeons and dangerous forests
+• Explore different Taverns, ancient Elves Dungeon and Forbidden forest
 • Fight monsters in turn based battles
 • Make different choices and choose different dialog actions
 
