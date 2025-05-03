@@ -1,12 +1,14 @@
-package locations
+package location
 
 import (
 	"fmt"
 	"strings"
+
+	"github.com/SephirothGit/Text-RPG/internal/character"
 )
 
 // Method for going to the Forbidden forest
-func (c *BaseCharacter) GoToForest() {
+func (c *character.BaseCharacter) GoToForest() {
 
 	fmt.Printf("%s goes to the Forbidden forest...\n", c.Name)
 
