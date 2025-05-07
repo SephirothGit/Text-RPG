@@ -3,10 +3,10 @@ package location
 import (
 	"fmt"
 	"strings"
-	"github.com/SephirothGit/Text-RPG/internal/character"
+	"github.com/SephirothGit/Text-RPG/pkg/character"
 )
 
-func (c *character.BaseCharacter) GoToInn() {
+func (c *BaseCharacter) GoToInn() {
 	fmt.Print("Welcome to the Mermaid's Inn!\n")
 
 	if c.LichDragonDead {

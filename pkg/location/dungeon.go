@@ -3,11 +3,11 @@ package location
 import (
 	"fmt"
 	"strings"
-	"github.com/SephirothGit/Text-RPG/internal/character"
+	"github.com/SephirothGit/Text-RPG/pkg/character"
 )
 
 // Go to the Ancient Elves Dungeon
-func (c *character.BaseCharacter) GoToDungeon() {
+func (c *BaseCharacter) GoToDungeon() {
 
 	if c.LichDragonDead {
 		fmt.Println("The dungeon feels quieter now, when the LichDragon is gone...")

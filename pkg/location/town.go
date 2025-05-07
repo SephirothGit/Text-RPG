@@ -3,11 +3,11 @@ package location
 import (
 	"fmt"
 	"strings"
-	"github.com/SephirothGit/Text-RPG/internal/character"
+	"github.com/SephirothGit/Text-RPG/pkg/character"
 )
 
 // Method for going to the Town
-func (c *character.BaseCharacter) GoToTown() {
+func (c *BaseCharacter) GoToTown() {
 	fmt.Printf("%s goes to the Town...\n", c.Name)
 
 	if c.LichDragonDead {

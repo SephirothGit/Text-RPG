@@ -3,11 +3,11 @@ package location
 import (
 	"fmt"
 	"strings"
-	"github.com/SephirothGit/Text-RPG/internal/character"
+	"github.com/SephirothGit/Text-RPG/pkg/character"
 )
 
 // Method for going to the Olaf's tavern
-func (c *character.BaseCharacter) GoToTavern() {
+func (c *BaseCharacter) GoToTavern() {
 	fmt.Printf("%s goes to the Olaf's tavern...\n", c.Name)
 
 	if c.LichDragonDead {
