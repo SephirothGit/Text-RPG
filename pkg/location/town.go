@@ -3,11 +3,11 @@ package location
 import (
 	"fmt"
 	"strings"
-	"github.com/SephirothGit/Text-RPG/pkg/character"
+	"github.com/SephirothGit/Text-RPG/pkg/core"
 )
 
 // Method for going to the Town
-func (c *BaseCharacter) GoToTown() {
+func (c *core.BaseCharacter) GoToTown() {
 	fmt.Printf("%s goes to the Town...\n", c.Name)
 
 	if c.LichDragonDead {
@@ -27,7 +27,7 @@ func (c *BaseCharacter) GoToTown() {
 
 		switch strings.ToLower(choosePlace) {
 		case "dungeon":
-			c.GoToDungeon()
+			core.c.GoToDungeon()
 			return
 
 		case "inn":

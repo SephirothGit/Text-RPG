@@ -1,10 +1,13 @@
 package character
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/SephirothGit/Text-RPG/pkg/core"
+)
 
 // Structure for Priest
 type Priest struct {
-	BaseCharacter
+	core.BaseCharacter
 }
 
 // Fight overridden method for Priest

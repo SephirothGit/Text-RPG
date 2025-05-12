@@ -89,7 +89,7 @@ func (c *BaseCharacter) Drink() {
 			if c.HP > c.MaxHP {
 				c.HP = c.MaxHP
 			}
-			fmt.Printf("%s drinks %s and restores %d HP (-%d silver coins) HP(%d/%d)\n", 
+			fmt.Printf("%s drinks %s and restores %d HP (-%d silver coins) HP(%d/%d)\n",
 				c.Name, drinkChoice, item.Hp, item.Cost, c.HP, c.MaxHP)
 		} else {
 			fmt.Println("Not enough silver coins")
@@ -119,7 +119,7 @@ func (c *BaseCharacter) Eat() {
 			if c.HP > c.MaxHP {
 				c.HP = c.MaxHP
 			}
-			fmt.Printf("%s eats %s and restores %d HP (-%d silver) HP(%d/%d) \n", 
+			fmt.Printf("%s eats %s and restores %d HP (-%d silver) HP(%d/%d) \n",
 				c.Name, foodChoice, item.Hp, item.Cost, c.HP, c.MaxHP)
 		} else {
 			fmt.Println("Not enough silver")

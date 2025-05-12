@@ -1,13 +1,16 @@
 package character
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/SephirothGit/Text-RPG/pkg/core"
+)
 
 // Structure for Knight
 type Knight struct {
-	BaseCharacter
+	core.BaseCharacter
 }
 
 // Fight overridden method for Warrior
-func (k *Knight) Fight() {
+func (k *core.Knight) Fight() {
 	fmt.Printf("%s (Knight) hits the enemy with a sword for %d DMG!\n", k.Name, k.DMG)
 }

@@ -1,10 +1,13 @@
 package character
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/SephirothGit/Text-RPG/pkg/core"
+)
 
 // Structure for Mage
 type Mage struct {
-	BaseCharacter
+	core.BaseCharacter
 }
 
 // Fight overridden method for Mage

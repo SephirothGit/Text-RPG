@@ -3,7 +3,6 @@ package core
 import (
 	"fmt"
 	"strings"
-	"github.com/SephirothGit/Text-RPG/pkg/character"
 )
 
 func StartGame() {
@@ -83,6 +82,6 @@ func StartGame() {
 			},
 		}
 	}
-	
+
 	c.ChooseLocation()
 }
