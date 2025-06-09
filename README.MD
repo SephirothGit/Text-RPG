@@ -23,7 +23,7 @@ Under the city are hidden ancient elven dungeons that keeping forgotten secrets 
 ```
 3. Run the program:
 ```bash
-go run Knight-game.go
+go run .
 ```
 
 ## How to contribute
