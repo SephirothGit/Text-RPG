@@ -25,19 +25,3 @@ Under the city are hidden ancient elven dungeons that keeping forgotten secrets 
 ```bash
 go run .
 ```
-
-## How to contribute
-1. Fork the repository.
-2. Create a new branch:
-```bash
-git checkout -b feature/your-feature
-```
-3.Push the changes:
-git push origin feature/your-feature
-4.Create a pull request.
-
-### **Authors**
-Specify who worked on the project.
-```markdown
-## Authors
-- [Your name](https://github.com/your-username)
